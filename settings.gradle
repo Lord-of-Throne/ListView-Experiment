@@ -1,2 +1,2 @@
-include ':app'
+include ':app', 'android-gif-drawable-master'
 include ':drag-sort-listview'

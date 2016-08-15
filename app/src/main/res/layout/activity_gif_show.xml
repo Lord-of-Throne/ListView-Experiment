@@ -8,5 +8,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.li.listview_experiment.GifShowActivity">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gif_bg"
 
+        />
+    <!--android:background="@drawable/bg_anim"-->
 </RelativeLayout>

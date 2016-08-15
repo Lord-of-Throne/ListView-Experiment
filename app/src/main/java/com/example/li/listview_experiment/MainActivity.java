@@ -1,5 +1,7 @@
 package com.example.li.listview_experiment;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -22,7 +24,7 @@ import java.util.List;
 
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private JazzAdapter adapter;
     private List<Person> persons;
     private Button button;
@@ -82,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
 //                    int j = i-1;
 //                    orders[i] = adapter.getPosition(adapter.getItem(i));
 //                }
-
+                Intent intent = new Intent(MainActivity.this,GifShowActivity.class);
+                startActivity(intent);
             }
         });
     }
